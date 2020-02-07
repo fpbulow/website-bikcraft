@@ -35,3 +35,12 @@ body {
 .header_menu ul li a:hover{
     color: #85c226;
 }
+
+/* Footer */ 
+
+.footer {    
+    width: 100%;
+    background: #000000;
+    color: #000000;
+    padding: 20px 0;
+}

@@ -1,103 +1,23 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.interna-sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #FFF;
-    padding: 15px 0;
-    border-bottom: solid #85c226;    
+.missao_sobre {
+    padding-top: 60px;
 }
 
-.header_menu {
-    text-align: right;    
-}
-
-.header_menu ul li{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 25px;
-}
-
-.header_menu ul li a{
-    color: #000000;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-size: 14px;
-    padding: 10px 0;
-}
-
-.header_menu ul li a:hover{
-    color: #85c226;
-}
-
-.about {
-    width: 100%;
-    height: 380px;
-    margin-top: 200px;
-}
-
-.about h1 {
-    font-size: 48px;
-    color: #507513;
-    font-weight: bold;
-    padding-bottom: 60px;
-}
-
-.clients {
-    width: 100%;
-    height: 300px;    
-    text-transform: capitalize;
-    color: black;
-}
-
-.clients h1 {
-    font-size: 28px;
-    color: #507513;
-    font-weight: bold;
-    text-transform: capitalize;    
-    padding-bottom: 30px;
-}
-
-
-/* Footer */ 
-
-.footer {    
-    width: 100%;
-    background: #ffffff;
-    color: #000;
-    padding: 20px 0;    
-    border-top: #85c226 solid;
-    border-bottom: #85c226 solid;    
-}
-
-.footer h3 {
+.missao_sobre p{
     font-size: 18px;
     line-height: 25px;
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: bold;
+    margin-bottom: 1em;
+    padding-right: 60px;
 }
 
-.footer h3:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #000;
-    margin-bottom: 10px;
+.missao_sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
 }
 
-.footer_social {
-    padding-right: 40px;
-}
-
-.footer_contato {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
+.foto-equipe {
+    padding-left: 20px;
 }
